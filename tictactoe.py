@@ -7,13 +7,13 @@ def main_function():
         player = next_player(player)
     display_board(board)
     print("Nice job!. Thanks for playing!") 
-
+#MainFunction responsible for the net outcomes of the move
 def make_board():
     board = []
     for square in range(9):
         board.append(square + 1)
     return board
-
+#makeboard function responsible for ensuring that all of the moves are shown and accounted for 
 def display_board(board):
     print()
     print(f"{board[0]}|{board[1]}|{board[2]}")
