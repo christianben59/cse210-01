@@ -7,14 +7,14 @@ def clear_system():
  
 # Prints the scoreboard of game 
 def print_scoreboard(score, chances):
-    print("\t\t\t     ____________________")
-    print("\t\t\t    |                    |")
+    print("    ____________________")
+    print("   |                    |")
     if score >= 10:
-        print("\t\t\t    |     Score = {}     |".format(score))
+        print("   |     Score = {}     |".format(score))
     else:   
-        print("\t\t\t    |     Score = {}      |".format(score))
-    print("\t\t\t    |  Chances Left = {}  |".format(chances))  
-    print("\t\t\t    |____________________|")
+        print("    |     Score = {}      |".format(score))
+    print("    |  Chances Left = {}  |".format(chances))  
+    print("    |____________________|")
  
 # Prints the cards 
 def print_cards(prev_card, current_card): 
